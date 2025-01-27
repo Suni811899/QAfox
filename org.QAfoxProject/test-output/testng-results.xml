@@ -1,154 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Get Report Connection Successful]]>
+    </line>
+    <line>
+      <![CDATA[Getting TestRunner Connection Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Nav to the apps Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Maximize the browser Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on my account header link successful]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login header link successful]]>
+    </line>
+    <line>
+      <![CDATA[Login Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Desktops_Mac product added]]>
+    </line>
+    <line>
+      <![CDATA[iMac]]>
+    </line>
+    <line>
+      <![CDATA[Apple]]>
+    </line>
+    <line>
+      <![CDATA[Product Code:Product 14]]>
+    </line>
+    <line>
+      <![CDATA[Availability:Out Of Stock]]>
+    </line>
+    <line>
+      <![CDATA[$122.00]]>
+    </line>
+    <line>
+      <![CDATA[Ex Tax:$100.00]]>
+    </line>
+    <line>
+      <![CDATA[QTY is entered sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[add cart button click sucessfully ]]>
+    </line>
+    <line>
+      <![CDATA[Description
+Reviews (0)
+Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+iMac
+Brand: Apple
+Product Code:Product 14
+Availability:Out Of Stock
+$122.00
+Ex Tax:$100.00
+Qty
+
+Add to Cart
+0 reviews / Write a review
+Related Products
+Apple Cinema 30"
+The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed speci..
+$110.00 $122.00
+Ex Tax:$90.00
+ADD TO CART]]>
+    </line>
+    <line>
+      <![CDATA[Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.]]>
+    </line>
+    <line>
+      <![CDATA[shopping cart button click sucessfull]]>
+    </line>
+    <line>
+      <![CDATA[view cart button click sucessfull]]>
+    </line>
+    <line>
+      <![CDATA[check out button click sucessfull]]>
+    </line>
+    <line>
+      <![CDATA[Products marked with *** are not available in the desired quantity or not in stock!
+×]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Terminate Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Terminate Test Level Connection Successful]]>
+    </line>
+    <line>
+      <![CDATA[Terminate Report Connection Successful]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-01-23T14:47:56 IST" name="Default suite" finished-at="2025-01-23T14:47:56 IST" duration-ms="59">
+  <suite started-at="2025-01-27T12:43:58 IST" name="Default suite" finished-at="2025-01-27T12:45:34 IST" duration-ms="96933">
     <groups>
     </groups>
-    <test started-at="2025-01-23T14:47:56 IST" name="Default test" finished-at="2025-01-23T14:47:56 IST" duration-ms="59">
-      <class name="org.QAfoxProject.Components.Components_MiceandTrackballs_Test">
-        <test-method is-config="true" signature="getReportConnection()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="getReportConnection" finished-at="2025-01-23T14:47:56 IST" duration-ms="9" status="FAIL">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problem: 
-The method getRandom(int) is undefined for the type JavaLibrary
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-The method getRandom(int) is undefined for the type JavaLibrary
-
-at org.QAfoxProjectGenericUtility.BaseConfigaration.getReportConnection(BaseConfigaration.java:216)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
+    <test started-at="2025-01-27T12:43:58 IST" name="Default test" finished-at="2025-01-27T12:45:34 IST" duration-ms="96933">
+      <class name="org.QAfoxProject.Desktops.Desktops_MacTest">
+        <test-method is-config="true" signature="getReportConnection()[pri:0, instance:org.QAfoxProject.Desktops.Desktops_MacTest@1bb5a082]" started-at="2025-01-27T12:43:57 IST" name="getReportConnection" finished-at="2025-01-27T12:43:58 IST" duration-ms="346" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Get Report Connection Successful]]>
+            </line>
           </reporter-output>
         </test-method> <!-- getReportConnection -->
-        <test-method is-config="true" signature="getTestRunnerConnection()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="getTestRunnerConnection" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getTestRunnerConnection()[pri:0, instance:org.QAfoxProject.Desktops.Desktops_MacTest@1bb5a082]" started-at="2025-01-27T12:43:58 IST" name="getTestRunnerConnection" finished-at="2025-01-27T12:43:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Getting TestRunner Connection Successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- getTestRunnerConnection -->
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="browserSetup" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.QAfoxProject.Desktops.Desktops_MacTest@1bb5a082]" started-at="2025-01-27T12:43:58 IST" name="browserSetup" finished-at="2025-01-27T12:44:02 IST" duration-ms="4052" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Browser Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Nav to the apps Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Maximize the browser Successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on my account header link successful]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login header link successful]]>
+            </line>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="login" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="browserLogin()[pri:0, instance:org.QAfoxProject.Desktops.Desktops_MacTest@1bb5a082]" started-at="2025-01-27T12:44:02 IST" name="browserLogin" finished-at="2025-01-27T12:44:03 IST" duration-ms="1373" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Login Successfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="verifyText_Components_MiceandTrackballs()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="verifyText_Components_MiceandTrackballs" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problem: 
-The method getRandom(int) is undefined for the type JavaLibrary
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-The method getRandom(int) is undefined for the type JavaLibrary
+        </test-method> <!-- browserLogin -->
+        <test-method signature="addProduct_Desktops_Mac()[pri:0, instance:org.QAfoxProject.Desktops.Desktops_MacTest@1bb5a082]" started-at="2025-01-27T12:44:03 IST" name="addProduct_Desktops_Mac" finished-at="2025-01-27T12:45:33 IST" duration-ms="90243" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Desktops_Mac product added]]>
+            </line>
+            <line>
+              <![CDATA[iMac]]>
+            </line>
+            <line>
+              <![CDATA[Apple]]>
+            </line>
+            <line>
+              <![CDATA[Product Code:Product 14]]>
+            </line>
+            <line>
+              <![CDATA[Availability:Out Of Stock]]>
+            </line>
+            <line>
+              <![CDATA[$122.00]]>
+            </line>
+            <line>
+              <![CDATA[Ex Tax:$100.00]]>
+            </line>
+            <line>
+              <![CDATA[QTY is entered sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[add cart button click sucessfully ]]>
+            </line>
+            <line>
+              <![CDATA[Description
+Reviews (0)
+Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.
+iMac
+Brand: Apple
+Product Code:Product 14
+Availability:Out Of Stock
+$122.00
+Ex Tax:$100.00
+Qty
 
-at org.QAfoxProjectGenericUtility.BaseConfigaration.getReportConnection(BaseConfigaration.java:216)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
-          <reporter-output>
+Add to Cart
+0 reviews / Write a review
+Related Products
+Apple Cinema 30"
+The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed speci..
+$110.00 $122.00
+Ex Tax:$90.00
+ADD TO CART]]>
+            </line>
+            <line>
+              <![CDATA[Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo processors. And more memory standard. Combine this with Mac OS X Leopard and iLife ´08, and it´s more all-in-one than ever. iMac packs amazing performance into a stunningly slim space.]]>
+            </line>
+            <line>
+              <![CDATA[shopping cart button click sucessfull]]>
+            </line>
+            <line>
+              <![CDATA[view cart button click sucessfull]]>
+            </line>
+            <line>
+              <![CDATA[check out button click sucessfull]]>
+            </line>
+            <line>
+              <![CDATA[Products marked with *** are not available in the desired quantity or not in stock!
+×]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifyText_Components_MiceandTrackballs -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="logout" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- addProduct_Desktops_Mac -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:org.QAfoxProject.Desktops.Desktops_MacTest@1bb5a082]" started-at="2025-01-27T12:45:33 IST" name="Logout" finished-at="2025-01-27T12:45:34 IST" duration-ms="1045" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Logout Successfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="login" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:org.QAfoxProject.Desktops.Desktops_MacTest@1bb5a082]" started-at="2025-01-27T12:45:34 IST" name="browserTerminate" finished-at="2025-01-27T12:45:34 IST" duration-ms="166" status="PASS">
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="verifyText_Components_MiceandTrackballs()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="verifyText_Components_MiceandTrackballs" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Error">
-            <message>
-              <![CDATA[Unresolved compilation problem: 
-The method getRandom(int) is undefined for the type JavaLibrary
-]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Error: Unresolved compilation problem: 
-The method getRandom(int) is undefined for the type JavaLibrary
-
-at org.QAfoxProjectGenericUtility.BaseConfigaration.getReportConnection(BaseConfigaration.java:216)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Error -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyText_Components_MiceandTrackballs -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="logout" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="browserTerminate" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
+            <line>
+              <![CDATA[Browser Terminate Successfully]]>
+            </line>
           </reporter-output>
         </test-method> <!-- browserTerminate -->
-        <test-method is-config="true" signature="terminateTestRunnerConnection()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="terminateTestRunnerConnection" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="terminateTestRunnerConnection()[pri:0, instance:org.QAfoxProject.Desktops.Desktops_MacTest@1bb5a082]" started-at="2025-01-27T12:45:34 IST" name="terminateTestRunnerConnection" finished-at="2025-01-27T12:45:34 IST" duration-ms="0" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Terminate Test Level Connection Successful]]>
+            </line>
           </reporter-output>
         </test-method> <!-- terminateTestRunnerConnection -->
-        <test-method is-config="true" signature="terminateReportConnection()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:57 IST" name="terminateReportConnection" finished-at="2025-01-23T14:47:57 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="terminateReportConnection()[pri:0, instance:org.QAfoxProject.Desktops.Desktops_MacTest@1bb5a082]" started-at="2025-01-27T12:45:35 IST" name="terminateReportConnection" finished-at="2025-01-27T12:45:35 IST" duration-ms="483" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Terminate Report Connection Successful]]>
+            </line>
           </reporter-output>
         </test-method> <!-- terminateReportConnection -->
-      </class> <!-- org.QAfoxProject.Components.Components_MiceandTrackballs_Test -->
+      </class> <!-- org.QAfoxProject.Desktops.Desktops_MacTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

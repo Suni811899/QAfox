@@ -45,18 +45,7 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.9</version>
 		</dependency>
-
-
-		<dependency>
-			<groupId>LearnigSelenium</groupId>
-			<artifactId>LearnigSelenium</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>org.Qspiders</groupId>
-			<artifactId>org.BookswagonProject</artifactId>
-			<version>1.1</version>
-		</dependency>
+		
 	</dependencies>
 
 

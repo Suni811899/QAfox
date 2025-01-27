@@ -30,11 +30,11 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class BaseConfigaration {
 
 	public WebDriverLibrary webdriverobj;
-	public ExcelFileLibrary excelfileobj;
+	//public ExcelFileLibrary excelfileobj;
 	public PropertyFileLibrary propertyfileobj;
 	public JavaLibrary javautilityobj;
 	public JavaScriptLibrary jsutilityobj;
-	public TakeScreenShortLibrary tsutilityobj;
+	//public TakeScreenShortLibrary tsutilityobj;
 	public WebDriver driver;
 
 	public ExtentSparkReporter spark;
@@ -199,11 +199,11 @@ public class BaseConfigaration {
 
 	public void initobjects() {
 		webdriverobj = new WebDriverLibrary();
-		excelfileobj = new ExcelFileLibrary();
+		//excelfileobj = new ExcelFileLibrary();
 		propertyfileobj = new PropertyFileLibrary();
 		javautilityobj = new JavaLibrary();
 		jsutilityobj = new JavaScriptLibrary();
-		tsutilityobj = new TakeScreenShortLibrary();
+		//tsutilityobj = new TakeScreenShortLibrary();
 
 	}
 
