@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-23T14:47:56 IST" name="Default suite" finished-at="2025-01-23T14:47:56 IST" duration-ms="59">
+    <groups>
+    </groups>
+    <test started-at="2025-01-23T14:47:56 IST" name="Default test" finished-at="2025-01-23T14:47:56 IST" duration-ms="59">
+      <class name="org.QAfoxProject.Components.Components_MiceandTrackballs_Test">
+        <test-method is-config="true" signature="getReportConnection()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="getReportConnection" finished-at="2025-01-23T14:47:56 IST" duration-ms="9" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The method getRandom(int) is undefined for the type JavaLibrary
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The method getRandom(int) is undefined for the type JavaLibrary
+
+at org.QAfoxProjectGenericUtility.BaseConfigaration.getReportConnection(BaseConfigaration.java:216)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReportConnection -->
+        <test-method is-config="true" signature="getTestRunnerConnection()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="getTestRunnerConnection" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestRunnerConnection -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="browserSetup" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="login" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyText_Components_MiceandTrackballs()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="verifyText_Components_MiceandTrackballs" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The method getRandom(int) is undefined for the type JavaLibrary
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The method getRandom(int) is undefined for the type JavaLibrary
+
+at org.QAfoxProjectGenericUtility.BaseConfigaration.getReportConnection(BaseConfigaration.java:216)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText_Components_MiceandTrackballs -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="logout" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="login" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="verifyText_Components_MiceandTrackballs()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="verifyText_Components_MiceandTrackballs" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problem: 
+The method getRandom(int) is undefined for the type JavaLibrary
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+The method getRandom(int) is undefined for the type JavaLibrary
+
+at org.QAfoxProjectGenericUtility.BaseConfigaration.getReportConnection(BaseConfigaration.java:216)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText_Components_MiceandTrackballs -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="logout" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="browserTerminate()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="browserTerminate" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTerminate -->
+        <test-method is-config="true" signature="terminateTestRunnerConnection()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:56 IST" name="terminateTestRunnerConnection" finished-at="2025-01-23T14:47:56 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateTestRunnerConnection -->
+        <test-method is-config="true" signature="terminateReportConnection()[pri:0, instance:org.QAfoxProject.Components.Components_MiceandTrackballs_Test@6236eb5f]" started-at="2025-01-23T14:47:57 IST" name="terminateReportConnection" finished-at="2025-01-23T14:47:57 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateReportConnection -->
+      </class> <!-- org.QAfoxProject.Components.Components_MiceandTrackballs_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

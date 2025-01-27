@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite_FunctionalityTest">
+
+	<listeners>
+		<listener
+			class-name="org.QAfoxProject.LisenerFeature.ListenersImplementation">
+		</listener>
+	</listeners>
+
+
+	<test thread-count="5" parallel="tests" name="ChromeTest">
+		<classes>
+			<class name="org.QAfoxProject.Desktops.Desktops_MacTest" />
+			<class name="org.QAfoxProject.Desktops.Desktops_PCTest" />
+		</classes>
+	</test> <!--
+	ChromeTest -->
+</suite> <!--
+Suite_FunctionalityTest -->
