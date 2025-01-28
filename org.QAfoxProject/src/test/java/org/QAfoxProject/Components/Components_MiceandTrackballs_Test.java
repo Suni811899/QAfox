@@ -14,9 +14,7 @@ import com.aventstack.extentreports.Status;
 public class Components_MiceandTrackballs_Test extends BaseConfigaration {
 
 	
-	public Components_MiceandTrackballs_Test() {
-		initobjects();
-	}
+	
 
 	@Test(enabled = true, invocationCount = 2, priority = 0)
 	public void verifyText_Components_MiceandTrackballs() {

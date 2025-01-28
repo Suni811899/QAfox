@@ -7,18 +7,22 @@ import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 
 public class Desktops_MacTest extends BaseConfigaration {
-
+	public Desktops_MacTest() {
+		report = new ExtentReports();
+	}
+	
 	@Test
 	public void addProduct_Desktops_Mac() {
 		Desktop_MacPage macObj = new Desktop_MacPage(webdriverobj.driver);
 	
 		//Create test information
-		ExtentTest test = report.createTest("Verify-AddProduct_Desktops_Mac");
+		ExtentTest test =super.report.createTest("Verify-AddProduct_Desktops_Mac");
 		
 		
 		HomePage homeobj = new HomePage(webdriverobj.driver);
@@ -26,7 +30,7 @@ public class Desktops_MacTest extends BaseConfigaration {
 		webdriverobj.mouseHouseToElement(homeobj.getDesktop_Headertext());
 		test.log(Status.PASS, "Step1:Perform mouse Hover Actions-Desktop");
 		
-		javautilityobj.pause(5000);
+		javautilityobj.pause(2000);
 
 		// Perofrm mouse actions on desktop module
 		webdriverobj.mouseHouseToElement(homeobj.getDesktop_Mac_Headertext());
@@ -35,30 +39,30 @@ public class Desktops_MacTest extends BaseConfigaration {
 		homeobj.getDesktop_Mac_Headertext().click();
 		test.log(Status.PASS, "Step2.2:Perform click Action-Mac");
 		
-		javautilityobj.pause(5000);
+		javautilityobj.pause(2000);
 		test.log(Status.PASS, "Dektops_mac_product added successfully");
 		
 		Reporter.log("Desktops_Mac product added", true);
 		
 		//added
 		macObj.getImac().click();
-		javautilityobj.pause(5000);
+		javautilityobj.pause(2000);
 
 		String productTitle = macObj.getProduct_Title().getText();
 		Reporter.log(productTitle, true);
-		javautilityobj.pause(5000);
+		javautilityobj.pause(2000);
 
 		String productBrand = macObj.getProduct_Brand().getText();
 		Reporter.log(productBrand, true);
-		javautilityobj.pause(5000);
+		javautilityobj.pause(2000);
 
 		String productCode = macObj.getProduct_Code().getText();
 		Reporter.log(productCode, true);
-		javautilityobj.pause(5000);
+		javautilityobj.pause(2000);
 
 		String productAvailability = macObj.getProduct_Availability().getText();
 		Reporter.log(productAvailability, true);
-		javautilityobj.pause(5000);
+		javautilityobj.pause(2000);
 
 		String productActualPrice = macObj.getProduct_ActualPrice().getText();
 		Reporter.log(productActualPrice, true);

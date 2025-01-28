@@ -9,16 +9,20 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.internal.annotations.BaseAnnotation;
 
+import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 
 public class Desktops_PCTest extends BaseConfigaration {
+	public Desktops_PCTest() {
+		report = new ExtentReports();
+	}
 
 	@Test
 	public void addProduct_Desktops_PCTest() {
 		// Create test information
-		ExtentTest test = report.createTest("Verify-AddProduct_Desktops_PC");
+		ExtentTest test = super.report.createTest("Verify-AddProduct_Desktops_PC");
 
 		HomePage homeobj = new HomePage(webdriverobj.driver);
 

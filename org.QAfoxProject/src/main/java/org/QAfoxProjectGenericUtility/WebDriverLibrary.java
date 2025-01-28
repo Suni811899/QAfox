@@ -1,6 +1,7 @@
 package org.QAfoxProjectGenericUtility;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -14,6 +15,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 /**
  * 	This class contains reusable methods to perfome driver related operations
@@ -34,13 +37,13 @@ public class WebDriverLibrary {
 	
 		switch(browser) 
 		{
-		case "chrome":
+		case "chrome":WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 			break;
-		case "firefox":
+		case "firefox":WebDriverManager.firefoxdriver().setup();
 			driver=new FirefoxDriver();
 			break;
-		case "edge":
+		case "edge":WebDriverManager.edgedriver().setup();
 			driver=new EdgeDriver();
 			break;
 		default:
@@ -154,10 +157,10 @@ public class WebDriverLibrary {
 	 * 
 	 */
 	public void waitUntilElementFound() {
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(PathConstant.Duration));
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 	
-	
+	//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(PathConstant.Duration));
 	
 	
 	/**
@@ -167,7 +170,7 @@ public class WebDriverLibrary {
 	 * 
 	 */
 	public void waitUntilElementFound(WebElement element) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(PathConstant.Duration));
+		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 

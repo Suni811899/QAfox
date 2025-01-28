@@ -21,6 +21,8 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.ExtentSparkReporterConfig;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 /**
  * Alt+Shift+j---->For cammands This class is used for configure all
  * precondition and post condition for test script and also initializing all the
@@ -55,6 +57,7 @@ public class BaseConfigaration {
 		String URL = "https://tutorialsninja.com/demo/";
 
 		// PreCondition1:Launch the browser
+		//WebDriverManager.chromedriver().setup();
 		webdriverobj.launchBrowser(Browser);
 		Reporter.log("Browser Launched Successfully", true);
 
