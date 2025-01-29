@@ -45,15 +45,28 @@
 			<artifactId>extentreports</artifactId>
 			<version>5.0.9</version>
 		</dependency>
-		
-		
+
+
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
 			<version>5.9.2</version>
 		</dependency>
-		
+
 	</dependencies>
+
+
+
+
+	<properties>
+
+		<maven.compiler.sources>1.8</maven.compiler.sources>
+		<maven.compiler.target>1.8</maven.compiler.target>
+
+	</properties>
+
+
+
 
 
 	<profiles>

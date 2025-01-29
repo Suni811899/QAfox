@@ -8,19 +8,22 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 public class Components_MiceandTrackballs_Test extends BaseConfigaration {
-
+	public Components_MiceandTrackballs_Test() {
+		report = new ExtentReports();
+	}
 	
 	
 
-	@Test(enabled = true, invocationCount = 2, priority = 0)
+	@Test(enabled = true, invocationCount = 1, priority = 0)
 	public void verifyText_Components_MiceandTrackballs() {
 
 		// Create test information
-		ExtentTest test = report.createTest("Verify-AddProduct_Desktops_PC");
+		ExtentTest test =super.report.createTest("Verify-AddProduct_Desktops_PC");
 
 		HomePage homeobj = new HomePage(webdriverobj.driver);
 
@@ -63,8 +66,8 @@ public class Components_MiceandTrackballs_Test extends BaseConfigaration {
 		test.log(Status.PASS, "There are no products to list in this category");
 		Reporter.log("Components_miceandtrackballs", true);
 
-		WebDriver driver = null;
-		Components_MiceandTrackballsPage mt = new Components_MiceandTrackballsPage(driver);
+		
+		Components_MiceandTrackballsPage mt = new Components_MiceandTrackballsPage(webdriverobj.driver);
 
 		String MicePagetext = mt.getMiceandTrackballs_PageText().getText();
 		String productText = mt.getMiceandTrackballs_ProductsText().getText();

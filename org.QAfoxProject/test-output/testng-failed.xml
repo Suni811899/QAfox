@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.QAfoxProject.Desktops.Desktops_MacTest">
+      <class name="org.QAfoxProject.Components.Components_MiceandTrackballs_Test">
         <methods>
           <include name="browserLogin"/>
           <include name="browserTerminate"/>
           <include name="getTestRunnerConnection"/>
           <include name="terminateReportConnection"/>
           <include name="browserSetup"/>
-          <include name="addProduct_Desktops_Mac"/>
           <include name="terminateTestRunnerConnection"/>
+          <include name="verifyText_Components_MiceandTrackballs"/>
           <include name="getReportConnection"/>
           <include name="Logout"/>
         </methods>
-      </class> <!-- org.QAfoxProject.Desktops.Desktops_MacTest -->
+      </class> <!-- org.QAfoxProject.Components.Components_MiceandTrackballs_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

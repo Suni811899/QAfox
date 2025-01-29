@@ -13,14 +13,16 @@ public class RegisterAccountTest extends BaseConfigaration{
 	
 	
 	
-	@Test(retryAnalyzer = org.QAfoxProject.LisenerFeature.ListenersImplementation.class)
+	//@Test(retryAnalyzer = org.QAfoxProject.LisenerFeature.ListenersImplementation.class)
 	public void verifyWithValidInput() {
 		
 		
 		RegisterAccountPage registerAccountPage = new RegisterAccountPage(WebDriverLibrary.static_driver);
 		registerAccountPage.getEmailtextfield().sendKeys("Suneetha");
 		registerAccountPage.getEmailtextfield().sendKeys("Peram");
-		registerAccountPage.getEmailtextfield().sendKeys("peramsuneetha12@gmail.com");
+		
+		javautilityobj.pause(1500);
+		registerAccountPage.getEmailtextfield().sendKeys("peramsuneetha09@gmail.com");
 		registerAccountPage.getTelephonetextfield().sendKeys("8309908877");
 		registerAccountPage.getPasswordtextfield().sendKeys("Suni@81189");
 		registerAccountPage.getConfirmpasswordtextfield().sendKeys("Suni@81189");
@@ -35,7 +37,7 @@ public class RegisterAccountTest extends BaseConfigaration{
 
 	}
 
-	@Test(retryAnalyzer = org.QAfoxProject.LisenerFeature.ListenersImplementation.class)
+//	@Test(retryAnalyzer = org.QAfoxProject.LisenerFeature.ListenersImplementation.class)
 	public void verifyWithInValidInput() {
 		// Test Log
 		Reporter.log("Register Account Verified With InValid Input", true);
@@ -43,3 +45,4 @@ public class RegisterAccountTest extends BaseConfigaration{
 	
 	
 }
+

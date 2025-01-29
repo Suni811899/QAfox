@@ -15,8 +15,8 @@ public class RegisterAccountPage {
 		@FindBy(id="input-lastname")
 		private WebElement LastNametextfield;
 		
-		
-		@FindBy(id="input-email")
+		//id="input-email
+		@FindBy(xpath="//input[@name='email']")
 		private WebElement Emailtextfield;
 		
 		

@@ -32,16 +32,16 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseConfigaration {
 
 	public WebDriverLibrary webdriverobj;
-	//public ExcelFileLibrary excelfileobj;
+	// public ExcelFileLibrary excelfileobj;
 	public PropertyFileLibrary propertyfileobj;
 	public JavaLibrary javautilityobj;
 	public JavaScriptLibrary jsutilityobj;
-	//public TakeScreenShortLibrary tsutilityobj;
-	public WebDriver driver;
+	// public TakeScreenShortLibrary tsutilityobj;
+//	public WebDriver driver;
 
 	public ExtentSparkReporter spark;
 	public ExtentReports report;
-	public ExtentTest test;
+	// public ExtentTest test;
 
 	/**
 	 * This Method used to configure the browser Setup
@@ -57,7 +57,7 @@ public class BaseConfigaration {
 		String URL = "https://tutorialsninja.com/demo/";
 
 		// PreCondition1:Launch the browser
-		//WebDriverManager.chromedriver().setup();
+		// WebDriverManager.chromedriver().setup();
 		webdriverobj.launchBrowser(Browser);
 		Reporter.log("Browser Launched Successfully", true);
 
@@ -75,13 +75,15 @@ public class BaseConfigaration {
 		homeobj.getMyaccountlink().click();
 		Reporter.log("Clicked on my account header link successful", true);
 
+		// Click on Register header link
+//		homeobj.getRegister_Hearderlink().click();
+//		Reporter.log("Clicked on register header link successful", true);
+		
+	
+
 		// Click on login header link
 		homeobj.getLogin_Hearderlink().click();
 		Reporter.log("Clicked on login header link successful", true);
-
-		// Click on Register header link
-		// homeobj.getRegister_Hearderlink().click();
-		// Reporter.log("Clicked on register header link successful", true);
 
 	}
 
@@ -91,7 +93,8 @@ public class BaseConfigaration {
 	@AfterClass
 	public void browserTerminate() {
 		// precondition1:close the browser
-		webdriverobj.closeBrowser();
+		webdriverobj.quiteBrowser();
+
 		// Test Log
 		Reporter.log("Browser Terminate Successfully", true);
 	}
@@ -202,11 +205,11 @@ public class BaseConfigaration {
 
 	public void initobjects() {
 		webdriverobj = new WebDriverLibrary();
-		//excelfileobj = new ExcelFileLibrary();
+		// excelfileobj = new ExcelFileLibrary();
 		propertyfileobj = new PropertyFileLibrary();
 		javautilityobj = new JavaLibrary();
 		jsutilityobj = new JavaScriptLibrary();
-		//tsutilityobj = new TakeScreenShortLibrary();
+		// tsutilityobj = new TakeScreenShortLibrary();
 
 	}
 

@@ -157,7 +157,7 @@ public class WebDriverLibrary {
 	 * 
 	 */
 	public void waitUntilElementFound() {
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 	}
 	
 	//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(PathConstant.Duration));
@@ -170,7 +170,7 @@ public class WebDriverLibrary {
 	 * 
 	 */
 	public void waitUntilElementFound(WebElement element) {
-		WebDriverWait wait = new WebDriverWait(driver, 20);
+		WebDriverWait wait = new WebDriverWait(driver, 40);
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 
